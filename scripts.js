@@ -26,11 +26,11 @@ const game = (human, machine) => {
     ) {
         userResult++ 
         user.innerHTML = userResult
-        result.innerHTML = "voçê venceu essa play"
+        result.innerHTML = "voçê venceu, fila da puta"
     } else{
         machineResult++
         machine0.innerHTML = machineResult
-        result.innerHTML = "voçê venceu, fila da puta"
+        result.innerHTML = "voçê perdeu, zé ruela"
 
     }
 }
